@@ -1,0 +1,41 @@
+/* Container for the entire slider */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* The image display container */
+.slider-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px; /* Adjusted width to match the image size */
+  overflow: hidden;
+}
+
+/* The custom left/right arrow buttons */
+.slider-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-btn {
+  position: absolute;
+  left: 0;
+}
+
+.next-btn {
+  position: absolute;
+  right: 0;
+}
+
+.slider-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,53 @@
+/* Container section */
+.container {
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  width: 50%; /* Full width of the container */
+  height:50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Smooth zoom transition */
+}
+
+/* Zoom effect on hover */
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Right side text styling */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #333;
+  width: 50%;
+  margin: 1rem 0;
+}

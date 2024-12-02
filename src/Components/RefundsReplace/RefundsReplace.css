@@ -1,0 +1,31 @@
+.refunds-replacement {
+    margin: 20px; /* Adds space around the content */
+    padding: 15px; /* Adds padding inside the container */
+    max-width: 800px; /* Sets a maximum width for the content */
+    margin-left: auto; /* Centering the content */
+    margin-right: auto; /* Centering the content */
+    line-height: 1.6; /* Increases line height for better readability */
+  }
+  
+  .refunds-replacement h1,
+  .refunds-replacement h2 {
+    text-decoration: underline; /* Underlines all headings */
+    font-weight: bold; /* Makes all headings bold */
+  }
+  
+  .refunds-replacement h1 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .refunds-replacement h2 {
+    font-size: 20px; /* Section title font size */
+    margin-top: 20px; /* Space above section title */
+    margin-bottom: 10px; /* Space below section title */
+  }
+  
+  .refunds-replacement p,
+  .refunds-replacement ul {
+    margin-bottom: 15px; /* Space below paragraphs and lists */
+  }
+  

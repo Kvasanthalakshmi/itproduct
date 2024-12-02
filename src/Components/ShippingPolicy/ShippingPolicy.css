@@ -1,0 +1,19 @@
+.shipping-policy {
+    margin: 20px; /* Adds space around the entire policy */
+    padding: 10px; /* Adds space inside the container */
+    max-width: 800px; /* Sets a maximum width for the content */
+    margin-left: auto; /* Centering the content */
+    margin-right: auto; /* Centering the content */
+    text-align: left; /* Ensures text is aligned to the left */
+    line-height: 1.6; /* Increases line height for better readability */
+  }
+  
+  .shipping-policy ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent the bullet points */
+  }
+  
+  .shipping-policy li {
+    margin-bottom: 10px; /* Adds space between list items */
+  }
+  

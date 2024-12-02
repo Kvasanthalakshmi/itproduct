@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.contact-left {
+  background-color: #ffffff;
+  border-radius: 15px 0 0 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #e0e4fa;
+}
+
+.contact-left h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-image {
+  width: 100%;
+  max-width: 250px;
+  margin: 20px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #6c63ff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.contact-right {
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-right h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+form textarea {
+  height: 120px;
+  resize: none;
+}
+
+form button {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  padding: 12px;
+  background-color: #6c63ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #5754d4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-left, .contact-right {
+    margin: 10px 0;
+  }
+}
+.response-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.response-message.success {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.response-message.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+

@@ -1,0 +1,53 @@
+.customer-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .customer-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .customer-description {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .customer-features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .feature-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
