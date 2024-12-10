@@ -15,7 +15,7 @@ import './Service.css';
 function ServicePage() {
   const services = [
     {
-      title: "Annual Maintenance Service (AMC)",
+      title: "Annual Maintenance Service",
       // icon: <BuildIcon className="service-icon" />,
       items: ["Networking", "Firewall", "WiFi Services", "Biometric & CCTV", "Projector, Printer & Billing", "Desktop & Laptops"]
     },

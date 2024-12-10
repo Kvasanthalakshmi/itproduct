@@ -17,7 +17,8 @@ import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
 import Cctv from './Components/Cctv/Cctv';
 import Laptop from './Components/Laptop/Laptop'; 
 import Printer from './Components/Printer/Printer';
-import TrendingLaptops from './Components/TrendingLaptops/TrendingLaptops'
+import HelpDesk from './Components/HelpDesk/HelpDesk';
+import TrendingLaptops from './Components/TrendingLaptops/TrendingLaptops';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <Route path='/service' element={<Service/>}/>
       <Route path='/aboutus' element={<AboutUs/>}/>
          <Route path='/contactus' element={<ContactUs/>}/>
+         <Route path='/helpdesk' element={<HelpDesk/>}/>
          <Route path='/shippingpolicy' element={<ShippingPolicy/>}/>
          <Route path='/termscondition' element={<TermsCondition/>}/>
          <Route path='/refundsreplace' element={<RefundsReplace/>}/>
